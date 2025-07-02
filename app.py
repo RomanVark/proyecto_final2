@@ -26,6 +26,5 @@ def pedir_credenciales():
     return False
 
 
-if __name__ == "__main__":
-    if pedir_credenciales():
-        main()
+if pedir_credenciales():
+    main()
